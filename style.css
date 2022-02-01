@@ -1,0 +1,76 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+article {
+    width: 1000px;
+    border: solid #000000 3px;
+
+    
+}
+
+main {
+    background-color: #f9e7d9;
+}
+
+img {
+    width: 240px;
+    height: 220px;
+}
+
+header {
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color:#e28743;
+}
+
+.profile {
+    width: 400px;
+}
+
+.about {
+    width: 500px;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #000000;
+}
+
+header p {
+    line-height: 27px;
+}
+
+.experience ul , .education ul , .volunteering ul , .skills ul{
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    text-align: center;
+    background-color: #e28743;
+}
+
+.experience , .education, .volunteering, .skills{
+    width: 400px;
+}
+
+.experience-education , .volunteering-skills{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
